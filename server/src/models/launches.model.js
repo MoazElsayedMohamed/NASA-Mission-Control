@@ -13,6 +13,10 @@ const launch = {
 
 launches.set(launch.flightNumber, launch);
 
+function getAllLaunches() {
+  return launches;
+}
+
 module.exports = {
-  launches,
+  getAllLaunches,
 };
