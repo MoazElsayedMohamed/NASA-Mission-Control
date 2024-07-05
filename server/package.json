@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "src/server.js",
   "scripts": {
-    "test": "jest",
+    "test": "jest --detectOpenHandles",
     "test-watch": "jest --watch",
     "watch": "nodemon src/server.js",
     "start": "node src/server.js",
@@ -13,6 +13,9 @@
   "author": "",
   "license": "ISC",
   "description": "NASA MISSION CONTROL API",
+  "jest": {
+    "testEnvironment": "node"
+  },
   "dependencies": {
     "cors": "^2.8.5",
     "csv-parse": "^5.5.6",
