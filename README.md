@@ -18,7 +18,7 @@
   <p align="center">
   <a href="http://54.226.65.35:8000/">View Demo</a>
     ·
-    <a href="https://github.com/MoazElsayedMohamed/NASA-Mission-Control/issues">Report Bug</a>
+    <a href="https://github.com/abdrahmansoltan/NASA-Mission-Control/issues">Report Bug</a>
   </p>
 </div>
 
